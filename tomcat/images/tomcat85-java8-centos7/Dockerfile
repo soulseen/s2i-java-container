@@ -1,4 +1,4 @@
-FROM kubespheredev/java-8-centos7
+FROM kubespheredev/java-8-centos7:latest-arm64
 
 MAINTAINER kubesphere@yunify.com
 
