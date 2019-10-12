@@ -235,7 +235,7 @@ function test_tomcat_java11_image() {
 
 # ==================================================================================
 
-cd java ; fish-pepper ; cd ..
+cd java  ; cd ..
 test_image "java/images/centos-java11/" "s2i-java-11"
 test_image "java/images/centos/" "s2i-java"
 
